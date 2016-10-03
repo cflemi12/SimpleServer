@@ -9,7 +9,7 @@ parser.add_argument("filename", type=str)
 parser.parse_args()
 
 s = socket.socket()
-host = "192.168.1.2"
+host = "97.81.212.238"
 port = 12345
 s.connect((host,port))
 
